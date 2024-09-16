@@ -1,0 +1,53 @@
+.values-card-bg{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.values-percentages{
+    color:rgb(28, 195, 195);
+    font-size:25px;
+    font-weight: 500;
+    margin:10px;
+}
+
+.values-name{
+    color:rgb(88, 89, 90);
+    margin:10px;
+    font-weight: 500;
+}
+
+.values-mid-head-top{
+    font-size:20px;
+}
+
+.values-mid-head-value{
+    font-size:35px;
+    margin: 15px;
+}
+
+.values-card{
+    text-align: center;
+}
+
+@media (max-width:767px){
+    .values-card-1{
+        order : 1;
+    }
+
+    .values-percentages{
+        font-size:18px;
+    }
+
+    .values-name{
+        font-size: 15px;
+    }
+
+    .values-mid-head-value{
+        font-size:28px;
+        
+    }
+}
