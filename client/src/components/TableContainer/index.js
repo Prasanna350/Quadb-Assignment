@@ -12,7 +12,7 @@ const TableContainer = () => {
 
     useEffect(() => {
         const fetchData = async() => {
-            const response = await fetch("http://localhost:5004/details")
+            const response = await fetch("https://quadb-assignment-backend.vercel.app/details")
             const data = await response.json()
             setTableData(data);
         }

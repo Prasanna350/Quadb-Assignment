@@ -35,7 +35,7 @@ const Header = () => {
             </div>
             <div className="timer-div">
                 <p className="timer-ele">{time}</p>
-                <a href="https://github.com/Prasanna350" target="_blank"><button className = "connect-button">Connect</button></a>
+                <a href="https://github.com/Prasanna350" target="_blank" rel="noreferrer"><button className = "connect-button">Connect</button></a>
             </div>
         </div>
     )
